@@ -1,0 +1,732 @@
+/* line 34, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+/* line 35, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 36, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+}
+
+/* line 37, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 48, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 50, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+html, button, input, select, textarea {
+  font-family: "arial", sans-serif;
+  color: #033649;
+}
+
+/* line 52, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+body {
+  margin: 0;
+  font-size: 0.938em;
+  line-height: 1.4;
+}
+
+/* line 62, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+::-moz-selection {
+  background: #033649;
+  color: white;
+  text-shadow: none;
+}
+
+/* line 63, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+::selection {
+  background: #033649;
+  color: white;
+  text-shadow: none;
+}
+
+/* line 71, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+a {
+  color: #033649;
+}
+
+/* line 72, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+a:visited {
+  color: #033649;
+}
+
+/* line 73, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+a:hover {
+  color: #033649;
+}
+
+/* line 74, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 77, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+a:hover, a:active {
+  outline: 0;
+}
+
+/* line 85, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 87, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 89, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+blockquote {
+  margin: 1em 40px;
+}
+
+/* line 91, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 93, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 95, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+ins {
+  background: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 97, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 100, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+pre, code, kbd, samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+/* line 103, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 105, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+q {
+  quotes: none;
+}
+
+/* line 106, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* line 108, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+small {
+  font-size: 85%;
+}
+
+/* line 111, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 112, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 113, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 121, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+ul, ol {
+  margin: 1em 0;
+  padding: 0 0 0 40px;
+}
+
+/* line 122, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/* line 123, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 134, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+/* line 138, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 146, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* line 154, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+form {
+  margin: 0;
+}
+
+/* line 155, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 158, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+label {
+  cursor: pointer;
+}
+
+/* line 163, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+legend {
+  border: 0;
+  *margin-left: -7px;
+  padding: 0;
+  white-space: normal;
+}
+
+/* line 169, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+/* line 173, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+button, input {
+  line-height: normal;
+}
+
+/* line 179, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  *overflow: visible;
+}
+
+/* line 183, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+/* line 187, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *width: 13px;
+  *height: 13px;
+}
+
+/* line 188, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 189, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+/* line 193, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 198, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical;
+}
+
+/* line 202, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+input:invalid, textarea:invalid {
+  background-color: #f0dddd;
+}
+
+/* line 210, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 211, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+td {
+  vertical-align: top;
+}
+
+/* line 6, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_chromeframe.scss */
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: black;
+  padding: 0.2em 0;
+}
+
+/* line 45, icon */
+.icon-sprite, .icon-poland_flag, .icon-portfolio, .icon-print, .icon-top_bg {
+  background: url('/images/icon-sf7be0681d6.png') no-repeat;
+}
+
+/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-poland_flag {
+  background-position: 0 0;
+}
+
+/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-portfolio {
+  background-position: 0 -16px;
+}
+
+/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-print {
+  background-position: 0 -56px;
+}
+
+/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-top_bg {
+  background-position: 0 -90px;
+}
+
+/* line 12, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+body, select, input, textarea {
+  color: #033649;
+  background: #e8ddcb;
+}
+
+/* line 26, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+#container {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 28, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+#container:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 1.4em;
+  background: url(/images/top_bg.png) left top;
+  z-index: 200;
+  opacity: 0.5;
+}
+/* line 41, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+#container > header address p {
+  float: left;
+}
+
+/* line 50, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+#main footer:after {
+  background: red url(/images/vl.png) right top repeat;
+}
+/* line 52, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+#main footer li {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 1.4em;
+  padding-right: 2.8em;
+}
+/* line 56, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+#main footer a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: right;
+  line-height: 4.2em;
+  color: #e8ddcb;
+  text-decoration: none;
+  -moz-transition-property: color;
+  -webkit-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+/* line 65, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+#main footer a:hover {
+  color: #033649;
+}
+/* line 67, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+#main footer a:hover .icon {
+  background-color: #033649;
+}
+/* line 69, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+#main .icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 38px;
+  height: 34px;
+}
+
+/* line 75, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+.icon-portfolio, .icon-print {
+  margin-left: 0.5em;
+  background-color: #016564;
+  -moz-transition-property: background-color;
+  -webkit-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+/* line 80, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+.icon-portfolio {
+  height: 40px;
+}
+
+/* line 83, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+.icon-poland_flag {
+  padding: 0 36px;
+  text-transform: uppercase;
+}
+
+/* line 4, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+#container {
+  width: 1000px;
+  max-width: 1000px;
+  padding-top: 2.8em;
+  margin: 0 auto;
+}
+/* line 9, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+#container > header {
+  float: left;
+  width: 83%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-left: 17%;
+  height: 11.2em;
+}
+/* line 13, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+#container > header h1, #container > header address {
+  float: left;
+  width: 79.518%;
+  margin-left: 1.205%;
+  margin-right: 1.205%;
+  margin-right: 0;
+}
+/* line 16, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+#container > header img {
+  float: left;
+  width: 18.072%;
+  margin-left: 1.205%;
+  margin-right: 1.205%;
+  margin-left: 0;
+}
+/* line 20, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+#container > footer {
+  float: left;
+  width: 15%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-left: 0;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  padding-top: 2.8em;
+}
+/* line 27, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+#container > footer:after {
+  width: 1.4em;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: " ";
+}
+
+/* line 35, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+#main {
+  float: left;
+  width: 83%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-left: 17%;
+  margin-right: 0;
+}
+
+/* line 44, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+section {
+  width: 100%;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 1, /media/sf_praca/about_me/page/cv/sass/partials/_typography.sass */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0 0 1.4em 0;
+}
+
+/* line 3, /media/sf_praca/about_me/page/cv/sass/partials/_typography.sass */
+h1 {
+  font-size: 3em;
+  line-height: 1.4em;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+/* line 9, /media/sf_praca/about_me/page/cv/sass/partials/_typography.sass */
+h3 {
+  font-size: 1.5em;
+  line-height: 1em;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 1.266em;
+}
+
+/* line 16, /media/sf_praca/about_me/page/cv/sass/partials/_typography.sass */
+h4 {
+  text-transform: uppercase;
+  line-height: 1.4em;
+  font-weight: normal;
+}
+
+/* line 21, /media/sf_praca/about_me/page/cv/sass/partials/_typography.sass */
+time {
+  color: #016564;
+  font-size: 1.125em;
+}
+
+/* line 25, /media/sf_praca/about_me/page/cv/sass/partials/_typography.sass */
+address {
+  font-style: normal;
+}
+
+/* line 1, /media/sf_praca/about_me/page/cv/sass/partials/_lists.sass */
+li {
+  width: 100%;
+  position: relative;
+  list-style: disc;
+}
+
+/* line 3, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
+article.cv section {
+  border-bottom: 1px solid #cdb380;
+  margin-bottom: -1px;
+  margin-top: 1.4em;
+}
+/* line 7, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
+article.cv h3 {
+  float: left;
+  width: 28.313%;
+  margin-left: 1.205%;
+  margin-right: 1.205%;
+  margin-left: 0;
+}
+
+/* line 11, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
+ul.details {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 69.277%;
+  margin-left: 1.205%;
+  margin-right: 1.205%;
+  margin-right: 0;
+}
+/* line 16, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
+ul.details > li {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 1px solid #cdb380;
+  min-height: 9.8em;
+  margin-bottom: 1.4em;
+  list-style: none;
+}
+/* line 22, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
+ul.details > li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+/* line 25, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
+ul.details time {
+  float: left;
+  width: 26.132%;
+  margin-left: 1.742%;
+  margin-right: 1.742%;
+  margin-left: 0;
+  padding-right: 1.2em;
+  white-space: nowrap;
+  text-align: right;
+  position: absolute;
+  left: -26.132%;
+  -moz-transform-origin: right top;
+  -webkit-transform-origin: right top;
+  -o-transform-origin: right top;
+  -ms-transform-origin: right top;
+  transform-origin: right top;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+}
+
+/* line 36, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
+div.details-description {
+  margin-left: 14.808%;
+}
+
+/* line 39, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
+div.details-resp {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 42, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
+h4.details-resp-header {
+  float: left;
+  width: 30.612%;
+  margin-left: 2.041%;
+  margin-right: 2.041%;
+  margin-left: 0;
+}
+
+/* line 46, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
+ul.details-resp-list {
+  padding: 0;
+  margin: 0;
+  float: left;
+  width: 65.306%;
+  margin-left: 2.041%;
+  margin-right: 2.041%;
+  margin-right: 0;
+}
+
+@media only screen and (min-width: 480px) {
+  /* Style adjustments for viewports 480px and over go here */
+}
+@media only screen and (min-width: 768px) {
+  /* Style adjustments for viewports 768px and over go here */
+}
+@media print {
+  /* line 11, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  * {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+
+  /* line 12, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  a, a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 13, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 14, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 15, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 16, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 17, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 18, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  tr, img {
+    page-break-inside: avoid;
+  }
+
+  /* line 19, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 21, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 22, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  h2, h3 {
+    page-break-after: avoid;
+  }
+
+  /* Style adjustments for print go here */
+}

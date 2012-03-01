@@ -1,0 +1,50 @@
+@import 'compass/css3'
+article.cv
+  section
+    border-bottom: 1px solid $beige
+    margin-bottom: -1px
+    margin-top: 1.4em
+  h3
+    @include column( 830, 1.5 )
+    +alpha
+
+ul.details
+  margin: 0
+  padding: 0
+  @include column( 830, 3.5 )
+  +omega
+  > li
+    +box-sizing( border-box )
+    border-bottom: 1px solid $beige
+    min-height: 9.8em
+    margin-bottom: 1.4em
+    list-style: none
+    &:last-child
+      border-bottom: none
+      margin-bottom: 0
+  time
+    @include column( 574, 1 )
+    +alpha
+    padding-right: 1.2em
+    white-space: nowrap
+    text-align: right
+    position: absolute
+    left: relative( 574, -$col-width )
+    @include transform-origin( right, top )
+    @include transform-rotate( -90 )
+
+div.details-description
+  @include prepend( 574, 0.5 )
+
+div.details-resp
+  +clearfix
+
+h4.details-resp-header
+  @include column( 490, 1 )
+  +alpha
+
+ul.details-resp-list
+  padding: 0
+  margin: 0
+  @include column( 490, 2 )
+  +omega

@@ -1,0 +1,36 @@
+@function column-width( $cols )
+  @return $col-width * $cols + ( 2*$col-gutter * $cols - 2*$col-gutter )
+
+@function relative( $container, $box )
+  @return ($box/$container)*100% 
+
+@mixin column( $container, $cols )
+  float: left
+  width: relative( $container, column-width( $cols ) )
+  margin-left: relative( $container, $col-gutter )
+  margin-right: relative( $container, $col-gutter )
+
+@mixin prepend( $container, $cols )
+  margin-left: relative( $container, column-width( $cols ) + 2*$col-gutter )
+
+@mixin pull( $container, $cols )
+  margin-left: (-1)*relative( $container, column-width( $cols )) 
+  margin-right: 0
+
+@mixin alpha()
+  margin-left: 0
+
+@mixin omega()
+  margin-right: 0
+
+@mixin transform-origin( $h, $v )
+  -webkit-transform-origin: $h $v
+  -moz-transform-origin:    $h $v
+  -ms-transform-origin:     $h $v
+  -o-transform-origin:      $h $v
+
+@mixin transform-rotate( $deg )
+  -webkit-transform: rotate(#{$deg}deg)
+  -moz-transform:    rotate(#{$deg}deg)
+  -ms-transform:     rotate(#{$deg}deg)
+  -o-transform:      rotate(#{$deg}deg)

@@ -1,0 +1,46 @@
+// layout
+@import 'compass/utilities/'
+@import 'compass/css3'
+#container
+  width: 1000px
+  max-width: 1000px
+  padding-top: 2.8em
+  margin: 0 auto
+  > header
+    @include column( 1000, 5 )
+    @include prepend( 1000, 1 )
+    height: 11.2em
+    h1, address
+      @include column( 830, 4)
+      +omega
+    img
+      @include column( 830, 1 )
+      +alpha
+
+  > footer
+    @include column( 1000, 1 )
+    +alpha
+    position: fixed
+    height: 100%
+    top: 0
+    padding-top: 2.8em
+    &:after
+      width: 1.4em
+      height: 100%
+      position: absolute
+      top: 0
+      right: 0
+      content: ' '
+
+#main
+  // 1000px
+  @include column( 1000, 5 )
+  @include prepend( 1000, 1 )
+  +omega
+
+article
+  // 800
+
+section
+  width: 100%
+  +clearfix

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+gnome-terminal --tab -e "bash -c \"exec bash\"" --title="dev" \
+							 --tab -e "bash -c \"bundle exec guard; exec bash\"" --title="LiveReload" \
+							 --tab -e "bash -c \"compass watch; exec bash\"" --title="Sass" \
+							 --tab -e "bash -c \"rackup -p 4567; exec bash\"" --title="Server" \

@@ -1,0 +1,87 @@
+// base
+//@import compass/css3
+
+//-----------------------------------------------
+// The following html5-boilerplate styles should
+// probably be customized for each site
+//-----------------------------------------------
+@import 'icon/*.png'
+
+@include all-icon-sprites
+
+body, select, input, textarea
+  color: $font-color
+  background: $background-color
+  // Set your base font here, to apply evenly
+  // font-family: Georgia, serif;
+
+//-----------------------------------
+// Add your own custom styles below
+//-----------------------------------
+@import 'compass/utilities'
+@import 'compass/css3'
+
+body
+
+#container
+  +clearfix
+  &:before
+    position: absolute
+    left: 0
+    top: 0
+    content: ' '
+    display: block
+    width: 100%
+    height: 1.4em
+    background: url(/images/top_bg.png) left top
+    z-index: 200
+    opacity: 0.5
+  > header
+    address
+      p
+        float: left
+
+
+  header
+
+#main
+
+  footer
+    &:after
+      background: red url(/images/vl.png) right top repeat
+    li
+      +box-sizing( border-box )
+      margin-bottom: 1.4em
+      padding-right: 2.8em
+    a
+      display: block
+      width: 100%
+      height: 100%
+      text-align: right
+      line-height: 4.2em
+      color: $background-color
+      text-decoration: none
+      +single-transition( color )
+      &:hover
+        color: $font-color
+        .icon
+          background-color: $font-color
+  .icon
+    display: inline-block
+    vertical-align: middle
+    width: 38px
+    height: 34px
+
+.icon-portfolio, .icon-print
+  margin-left: 0.5em
+  background-color: $accent-font-color
+  +single-transition( background-color )
+
+.icon-portfolio
+  height: 40px
+
+.icon-poland_flag
+  padding: 0 36px
+  text-transform: uppercase
+
+// =links
