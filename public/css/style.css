@@ -810,7 +810,3 @@ ul.details-resp-list {
     margin-bottom: 0;
   }
 }
-/* line 1, /media/sf_praca/about_me/page/cv/sass/partials/_development.sass */
-body:hover {
-  background: url(/images/grid.png) center -5px repeat-y;
-}
