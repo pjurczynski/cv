@@ -16,5 +16,35 @@
 // ========================================================================== */
 
 @media print
-  +h5bp-media-print
-  /* Style adjustments for print go here
+  @include h5bp-media-print
+  body
+    font-size: 14px
+    padding: 0
+    margin: 0
+    background: white
+    min-width: 900px
+  footer
+    display: none
+  #container
+    //width: auto
+    //max-width: auto
+    padding: 0 3%
+    background: none
+    > header
+      @include column( 1000, 6 )
+      @include prepend( 1000, 0 )
+    &:before
+      background: none
+  #main
+    @include column( 1000, 6 )
+  article.cv
+    section, ul.details > li
+      border-bottom: 0
+  a[href]:after
+    content: ''
+  a, a:visited
+    text-decoration: none
+  .icon-poland_flag
+    padding: 0
+  .cv section:last-child .details-resp:last-child .details-resp-list:last-child
+    margin-bottom: 0

@@ -50,11 +50,12 @@ header
 
 footer
   &:after
-    background: red url(/images/vl.png) right top repeat
+    background: url(/images/vl.png) right top repeat
   li
     +box-sizing( border-box )
     margin-bottom: 1.4em
     padding-right: 2.8em
+    list-style: none
   a
     display: block
     width: 100%
@@ -63,6 +64,7 @@ footer
     line-height: 4.2em
     color: $background-color
     text-decoration: none
+    white-space: nowrap
     +single-transition( color )
     &:hover
       color: $font-color

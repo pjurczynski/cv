@@ -377,7 +377,7 @@ body, select, input, textarea {
 
 /* line 52, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 footer:after {
-  background: red url(/images/vl.png) right top repeat;
+  background: url(/images/vl.png) right top repeat;
 }
 /* line 54, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 footer li {
@@ -387,8 +387,9 @@ footer li {
   box-sizing: border-box;
   margin-bottom: 1.4em;
   padding-right: 2.8em;
+  list-style: none;
 }
-/* line 58, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 59, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 footer a {
   display: block;
   width: 100%;
@@ -397,6 +398,7 @@ footer a {
   line-height: 4.2em;
   color: #e8ddcb;
   text-decoration: none;
+  white-space: nowrap;
   -moz-transition-property: color;
   -webkit-transition-property: color;
   -o-transition-property: color;
@@ -406,22 +408,22 @@ footer a {
   -o-transition-duration: 1s;
   transition-duration: 1s;
 }
-/* line 67, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 69, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 footer a:hover {
   color: #033649;
 }
-/* line 69, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 71, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 footer a:hover .icon {
   background-color: #033649;
 }
 
-/* line 71, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 73, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 .icon {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 75, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 77, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 .icon-portfolio, .icon-print {
   width: 38px;
   height: 34px;
@@ -437,12 +439,12 @@ footer a:hover .icon {
   transition-duration: 1s;
 }
 
-/* line 82, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 84, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 .icon-portfolio {
   height: 40px;
 }
 
-/* line 85, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 87, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 .icon-poland_flag {
   padding-left: 36px;
   text-transform: uppercase;
@@ -450,7 +452,7 @@ footer a:hover .icon {
   vertical-align: top;
 }
 
-/* line 92, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 94, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 a {
   text-decoration: none;
   color: #016564;
@@ -458,12 +460,10 @@ a {
 
 /* line 4, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
 #container {
-  width: 1000px;
-  max-width: 1000px;
   padding-top: 2.8em;
   margin: 0 auto;
 }
-/* line 9, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+/* line 7, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
 #container > header {
   float: left;
   width: 83%;
@@ -472,7 +472,7 @@ a {
   margin-left: 17%;
   height: 11.2em;
 }
-/* line 13, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+/* line 11, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
 #container > header h1, #container > header address {
   float: left;
   width: 79.518%;
@@ -480,15 +480,15 @@ a {
   margin-right: 1.205%;
   margin-right: 0;
 }
-/* line 16, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
-#container > header img {
+/* line 14, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+#container > header figure {
   float: left;
   width: 18.072%;
   margin-left: 1.205%;
   margin-right: 1.205%;
   margin-left: 0;
 }
-/* line 20, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+/* line 18, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
 #container > footer {
   float: left;
   width: 15%;
@@ -500,7 +500,7 @@ a {
   top: 0;
   padding-top: 2.8em;
 }
-/* line 27, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+/* line 25, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
 #container > footer:after {
   width: 1.4em;
   height: 100%;
@@ -510,7 +510,7 @@ a {
   content: " ";
 }
 
-/* line 35, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+/* line 33, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
 #main {
   float: left;
   width: 83%;
@@ -520,7 +520,7 @@ a {
   margin-right: 0;
 }
 
-/* line 44, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+/* line 42, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
 section {
   width: 100%;
   overflow: hidden;
@@ -606,16 +606,19 @@ ul.details > li {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   border-bottom: 1px solid #cdb380;
-  min-height: 9.8em;
-  margin-bottom: 1.4em;
+  margin-bottom: 1.333em;
   list-style: none;
 }
-/* line 22, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
+/* line 21, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
 ul.details > li:last-child {
   border-bottom: none;
   margin-bottom: 0;
 }
-/* line 25, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
+/* line 24, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
+ul.details.with-time > li {
+  min-height: 9.867em;
+}
+/* line 26, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
 ul.details time {
   float: left;
   width: 26.132%;
@@ -638,18 +641,18 @@ ul.details time {
   -o-transform: rotate(-90deg);
 }
 
-/* line 36, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
+/* line 37, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
 div.details-description {
   margin-left: 14.808%;
 }
 
-/* line 39, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
+/* line 40, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
 div.details-resp {
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 42, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
+/* line 43, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
 h4.details-resp-header {
   float: left;
   width: 30.612%;
@@ -658,10 +661,10 @@ h4.details-resp-header {
   margin-left: 0;
 }
 
-/* line 46, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
+/* line 47, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
 ul.details-resp-list {
   padding: 0;
-  margin: 0;
+  margin: 0 0 1.4em;
   float: left;
   width: 65.306%;
   margin-left: 2.041%;
@@ -742,5 +745,72 @@ ul.details-resp-list {
     page-break-after: avoid;
   }
 
-  /* Style adjustments for print go here */
+  /* line 20, /media/sf_praca/about_me/page/cv/sass/partials/_media.sass */
+  body {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    background: white;
+    min-width: 900px;
+  }
+
+  /* line 26, /media/sf_praca/about_me/page/cv/sass/partials/_media.sass */
+  footer {
+    display: none;
+  }
+
+  /* line 28, /media/sf_praca/about_me/page/cv/sass/partials/_media.sass */
+  #container {
+    padding: 0 3%;
+    background: none;
+  }
+  /* line 33, /media/sf_praca/about_me/page/cv/sass/partials/_media.sass */
+  #container > header {
+    float: left;
+    width: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-left: 0%;
+  }
+  /* line 36, /media/sf_praca/about_me/page/cv/sass/partials/_media.sass */
+  #container:before {
+    background: none;
+  }
+
+  /* line 38, /media/sf_praca/about_me/page/cv/sass/partials/_media.sass */
+  #main {
+    float: left;
+    width: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  /* line 41, /media/sf_praca/about_me/page/cv/sass/partials/_media.sass */
+  article.cv section, article.cv ul.details > li {
+    border-bottom: 0;
+  }
+
+  /* line 43, /media/sf_praca/about_me/page/cv/sass/partials/_media.sass */
+  a[href]:after {
+    content: "";
+  }
+
+  /* line 45, /media/sf_praca/about_me/page/cv/sass/partials/_media.sass */
+  a, a:visited {
+    text-decoration: none;
+  }
+
+  /* line 47, /media/sf_praca/about_me/page/cv/sass/partials/_media.sass */
+  .icon-poland_flag {
+    padding: 0;
+  }
+
+  /* line 49, /media/sf_praca/about_me/page/cv/sass/partials/_media.sass */
+  .cv section:last-child .details-resp:last-child .details-resp-list:last-child {
+    margin-bottom: 0;
+  }
+}
+/* line 1, /media/sf_praca/about_me/page/cv/sass/partials/_development.sass */
+body:hover {
+  background: url(/images/grid.png) center -5px repeat-y;
 }

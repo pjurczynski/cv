@@ -16,12 +16,13 @@ ul.details
   > li
     +box-sizing( border-box )
     border-bottom: 1px solid $beige
-    min-height: 9.8em
-    margin-bottom: 1.4em
+    margin-bottom: 1.333em
     list-style: none
     &:last-child
       border-bottom: none
       margin-bottom: 0
+  &.with-time > li
+    min-height: 9.8666em
   time
     @include column( 574, 1 )
     +alpha
@@ -45,6 +46,6 @@ h4.details-resp-header
 
 ul.details-resp-list
   padding: 0
-  margin: 0
+  margin: 0 0 1.4em
   @include column( 490, 2 )
   +omega

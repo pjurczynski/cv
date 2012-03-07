@@ -37,7 +37,8 @@
   %body
     #container
       %header
-        %img{ :src => 'images/peter-jurczynski.jpg', :alt => "Peter Jurczyński", :title => "Peter Jurczyński", :width=>150, :height=>150 }
+        %figure
+          %img{ :src => 'images/peter-jurczynski.jpg', :alt => "Peter Jurczyński", :title => "Peter Jurczyński"} 
         %h1 Piotr Jurczyński
         %address
           %p
@@ -52,7 +53,7 @@
         %nav
           %ul
             %li
-              %a{ :href => 'print' }
+              %a{ :href => 'print', :class => 'print' }
                 print
                 %span.icon-print.icon
             %li
