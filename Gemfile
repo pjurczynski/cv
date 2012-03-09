@@ -8,6 +8,8 @@ gem 'html5-boilerplate'
 gem 'oily_png'
 
 # development
-# gem 'guard'
-# gem 'guard-livereload'
-# gem 'rack-livereload'
+group :development do
+  gem 'guard'
+  gem 'guard-livereload'
+  gem 'rack-livereload'
+end

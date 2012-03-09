@@ -409,21 +409,25 @@ footer a {
   transition-duration: 1s;
 }
 /* line 69, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+footer a:visited {
+  color: #e8ddcb;
+}
+/* line 71, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 footer a:hover {
   color: #033649;
 }
-/* line 71, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 73, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 footer a:hover .icon {
   background-color: #033649;
 }
 
-/* line 73, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 75, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 .icon {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 77, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 79, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 .icon-portfolio, .icon-print {
   width: 38px;
   height: 34px;
@@ -439,12 +443,12 @@ footer a:hover .icon {
   transition-duration: 1s;
 }
 
-/* line 84, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 86, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 .icon-portfolio {
   height: 40px;
 }
 
-/* line 87, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 89, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 .icon-poland_flag {
   padding-left: 36px;
   text-transform: uppercase;
@@ -452,7 +456,7 @@ footer a:hover .icon {
   vertical-align: top;
 }
 
-/* line 94, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 96, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 a {
   text-decoration: none;
   color: #016564;
@@ -575,15 +579,15 @@ li {
 }
 
 /* line 3, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
-article.cv section {
+article.cv section, article.portfolio section {
   border-bottom: 1px solid #cdb380;
   margin-bottom: -1px;
   margin-top: 1.4em;
 }
 /* line 7, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
-article.cv h3 {
+article.cv h3, article.portfolio h3 {
   float: left;
-  width: 28.313%;
+  width: 18.072%;
   margin-left: 1.205%;
   margin-right: 1.205%;
   margin-left: 0;
@@ -594,7 +598,7 @@ ul.details {
   margin: 0;
   padding: 0;
   float: left;
-  width: 69.277%;
+  width: 79.518%;
   margin-left: 1.205%;
   margin-right: 1.205%;
   margin-right: 0;
@@ -659,9 +663,10 @@ h4.details-resp-header {
   margin-left: 2.041%;
   margin-right: 2.041%;
   margin-left: 0;
+  min-width: 150px;
 }
 
-/* line 47, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
+/* line 48, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
 ul.details-resp-list {
   padding: 0;
   margin: 0 0 1.4em;
@@ -809,4 +814,83 @@ ul.details-resp-list {
   .cv section:last-child .details-resp:last-child .details-resp-list:last-child {
     margin-bottom: 0;
   }
+}
+/* line 1, /media/sf_praca/about_me/page/cv/sass/partials/_development.sass */
+body:hover {
+  background: url(/images/grid.png) center -5px repeat-y;
+}
+
+/* line 3, /media/sf_praca/about_me/page/cv/sass/partials/_development.sass */
+#slides section {
+  outline: 1px solid white !important;
+}
+
+/********************************************
+ * SLIDES
+ ******************************************** */
+/* line 4, /media/sf_praca/about_me/page/cv/sass/partials/_slides.sass */
+body {
+  overflow-x: hidden;
+}
+
+/* line 6, /media/sf_praca/about_me/page/cv/sass/partials/_slides.sass */
+#slides {
+  position: absolute;
+  width: 90%;
+  height: 80%;
+  left: 5%;
+  top: 10%;
+  text-align: center;
+  -webkit-perspective: 600px;
+  -webkit-perspective-origin: 50% 25%;
+}
+
+/* line 15, /media/sf_praca/about_me/page/cv/sass/partials/_slides.sass */
+#slides > section,
+#slides > section > section {
+  display: none;
+  position: absolute;
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  min-height: 300px;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: all 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: all 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -o-transition: all 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: all 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  text-align: left;
+}
+
+/* line 30, /media/sf_praca/about_me/page/cv/sass/partials/_slides.sass */
+#slides section.past {
+  display: inline-block;
+  opacity: 0;
+  -webkit-transform: translate3d(-100%, 0, 0) rotateY(-90deg) translate3d(-100%, 0, 0);
+}
+
+/* line 36, /media/sf_praca/about_me/page/cv/sass/partials/_slides.sass */
+#slides section.present {
+  display: inline-block;
+}
+
+/* line 40, /media/sf_praca/about_me/page/cv/sass/partials/_slides.sass */
+#slides section.future {
+  display: inline-block;
+  opacity: 0;
+  -webkit-transform: translate3d(100%, 0, 0) rotateY(90deg) translate3d(100%, 0, 0);
+}
+
+/* line 45, /media/sf_praca/about_me/page/cv/sass/partials/_slides.sass */
+#slides section > section.past {
+  display: inline-block;
+  opacity: 0;
+  -webkit-transform: translate3d(0, -50%, 0) rotateX(70deg) translate3d(0, -50%, 0);
+}
+
+/* line 50, /media/sf_praca/about_me/page/cv/sass/partials/_slides.sass */
+#slides section > section.future {
+  display: inline-block;
+  opacity: 0;
+  -webkit-transform: translate3d(0, 50%, 0) rotateX(-70deg) translate3d(0, 50%, 0);
 }

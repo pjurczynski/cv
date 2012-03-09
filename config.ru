@@ -1,6 +1,11 @@
 require './index.rb'
-#require 'rack-livereload'
-#
-#use Rack::LiveReload
 
-run Sinatra::Application
+class Cv < Sinatra::Application
+  configure :development do
+    require 'rack-livereload'
+
+    use Rack::LiveReload
+  end
+end
+
+run Cv

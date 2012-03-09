@@ -1,17 +1,17 @@
 @import 'compass/css3'
-article.cv
+article.cv, article.portfolio
   section
     border-bottom: 1px solid $beige
     margin-bottom: -1px
     margin-top: 1.4em
   h3
-    @include column( 830, 1.5 )
+    @include column( 830, 1 )
     +alpha
 
 ul.details
   margin: 0
   padding: 0
-  @include column( 830, 3.5 )
+  @include column( 830, 4 )
   +omega
   > li
     +box-sizing( border-box )
@@ -43,8 +43,10 @@ div.details-resp
 h4.details-resp-header
   @include column( 490, 1 )
   +alpha
+  min-width: 150px
 
 ul.details-resp-list
+
   padding: 0
   margin: 0 0 1.4em
   @include column( 490, 2 )

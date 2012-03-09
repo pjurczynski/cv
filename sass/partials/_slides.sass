@@ -1,0 +1,53 @@
+/*********************************************
+ * SLIDES
+ *********************************************/
+body
+  overflow-x: hidden
+#slides 
+  position: absolute
+  width: 90%
+  height: 80%
+  left: 5%
+  top: 10%
+  text-align: center
+  -webkit-perspective: 600px
+  -webkit-perspective-origin: 50% 25%
+#slides>section,
+#slides>section>section 
+  display: none
+  position: absolute
+  width: 100%
+  max-width: 800px
+  height: 100%
+  min-height: 300px
+  -webkit-transform-style: preserve-3d
+  -webkit-transition: all 800ms cubic-bezier(0.260, 0.860, 0.440, 0.985) 
+  -moz-transition: all 800ms cubic-bezier(0.260, 0.860, 0.440, 0.985) 
+  -o-transition: all 800ms cubic-bezier(0.260, 0.860, 0.440, 0.985) 
+  transition: all 800ms cubic-bezier(0.260, 0.860, 0.440, 0.985)
+  text-align: left
+
+#slides section.past 
+  display: inline-block
+  opacity: 0
+  -webkit-transform: 	translate3d(-100%, 0, 0) rotateY(-90deg) translate3d(-100%, 0, 0)
+
+
+#slides section.present 
+  display: inline-block
+
+
+#slides section.future 
+  display: inline-block
+  opacity: 0
+  -webkit-transform: 	translate3d(100%, 0, 0) rotateY(90deg) translate3d(100%, 0, 0)
+
+#slides section>section.past 
+  display: inline-block
+  opacity: 0
+  -webkit-transform: 	translate3d(0, -50%, 0) rotateX(70deg) translate3d(0, -50%, 0)
+
+#slides section>section.future 
+  display: inline-block
+  opacity: 0
+  -webkit-transform: 	translate3d(0, 50%, 0) rotateX(-70deg) translate3d(0, 50%, 0)
