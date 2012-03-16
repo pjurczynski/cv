@@ -23,7 +23,7 @@
     margin: 0
     background: white
     min-width: 900px
-  footer
+  footer, .slides-help, .slides-navigation
     display: none
   #container
     //width: auto
@@ -48,3 +48,15 @@
     padding: 0
   .cv section:last-child .details-resp:last-child .details-resp-list:last-child
     margin-bottom: 0
+  #container
+    #slides
+      & > section
+        margin-top: 2.8em
+      section
+        position: static
+        display: block
+        opacity: 1
+        -webkit-transform: none
+        & > section+section
+          .slide-title, .slide-subtitle img
+            display: none
