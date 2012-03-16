@@ -7,26 +7,10 @@
 		window.print();
 		e.preventDefault();
 	})
+
+  $('.slides-help').delay(1000).slideDown( ).click( function() {
+    $(this).slideUp();
+  });
 })()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

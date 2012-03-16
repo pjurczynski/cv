@@ -6,13 +6,16 @@
   
 .boxes-item
   width: 45%
-  margin: 0 0.4% 1em
+  margin: 0 1% 1em
   position: relative
   h4
-    margin: 0
+    margin: 1em
   *
     vertical-align: middle
-  img
+  img 
     width: 100%
   a
     display: block
+  a:hover img
+    +box-shadow( white, 0, 0, 20px )
+    

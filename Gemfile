@@ -6,6 +6,7 @@ gem 'sass'
 gem 'compass'
 gem 'html5-boilerplate'
 gem 'oily_png'
+gem 'maruku'
 
 # development
 group :development do
