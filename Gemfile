@@ -7,6 +7,7 @@ gem 'compass'
 gem 'html5-boilerplate'
 gem 'oily_png'
 gem 'maruku'
+gem 'sinatra-contrib'
 
 # development
 group :development do
