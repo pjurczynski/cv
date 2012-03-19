@@ -1,5 +1,5 @@
 -content_for :scripts do
-  %script{ :src => "js/slideshow.js" }
+  %script{ :src => "/js/slideshow.js" }
 
 %div.slides-help
   %p Use keyboard arrows to navigate (click to dismiss)
@@ -21,15 +21,15 @@
         %li.boxes-item
           %a{ :href => '#/2' }
             %h4 WydawnictwoRemi.pl
-            %img{ :src => 'images/remi_thumb.png', :title => 'Wydawnictwo Remi' }
+            %img{ :src => '/images/remi_thumb.png', :title => 'Wydawnictwo Remi' }
         %li.boxes-item
           %a{ :href => '#/3' }
             %h4 ButyOrtopedyczne.com
-            %img{ :src => 'images/butyortopedyczne_thumb.png', :title => 'Buty Ortopedyczne' }
+            %img{ :src => '/images/butyortopedyczne_thumb.png', :title => 'Buty Ortopedyczne' }
         %li.boxes-item
           %a{ :href => '#/4' }
             %h4 AutoRadca.pl
-            %img{ :src => 'images/autoradca_thumb.png', :title => 'AutoRadca' }
+            %img{ :src => '/images/autoradca_thumb.png', :title => 'AutoRadca' }
     /#=2jamamto 
     %section
       /#=2.1jamamto 
@@ -43,7 +43,7 @@
             %img{ :src => '/images/jamamto_thumb.png', :title => 'JaMamTo.com' }
           %p
             :markdown
-              I've been recruited to the project which was a take on a social site. Its core difference was to focus on *positivity*. All news published on a site had to have some positive outcome. Tools that we were going to develope had to inform you about something good. ex. We had a complimentator widget that embeded a video clip with a compliment for you.
+              I've been recruited to the project to work on a social site. Its core difference was to focus on *positivity*. All news published on a site had to have some positive outcome. Tools that we were going to develope had to inform you about something good. ex. We had a complimentator widget that embeded a video clip with a compliment for you.
 
           %nav.slides-navigation
             %p
@@ -59,10 +59,10 @@
             %img{ :src => '/images/jamamto_thumb.png', :title => 'JaMamTo.com' }
           %p
             :markdown
-              With a given photoshop layout, I had create a launching page.
+              With a given photoshop layout, I had to create a launching page.
               Its functionality came down to two things:
-              * A counter which displayed remaining days until launch date
-              * A newsletter module (subscribing and displaying former news)
+              * A counter which displayed remaining days until launch date,
+              * A newsletter module (subscribing and displaying former news).
 
               For the main social page I was given instructions to build a calendar widget with an internal API for other widgets to communicate with it.
 
@@ -80,7 +80,7 @@
               Wydawnictwo Remi
           %h3.slide-subtitle#overview
             Project Overview
-            %img{ :src => 'images/remi_thumb.png', :title => 'Wydawnictwo Remi' }
+            %img{ :src => '/images/remi_thumb.png', :title => 'Wydawnictwo Remi' }
           %p
             :markdown
               Goal of this project was to create a very simple archive of publishers books. Client didn't want to sell books directly on the website so We've decided to go with the wordpress engine. Also to cut costs we've found an ideal template on [Theme Forest](http://themeforest.net) that we could implement in our vision.
@@ -96,12 +96,12 @@
               Wydawnictwo Remi
           %h3.slide-subtitle#responsibilities
             Responsibilities
-            %img{ :src => 'images/remi_thumb.png', :title => 'Wydawnictwo Remi' }
+            %img{ :src => '/images/remi_thumb.png', :title => 'Wydawnictwo Remi' }
           %p
             :markdown
               I've customized template from [Theme Forest](http://themeforest.net) and added some functionality ex.:
               * sorting books by the author, date published or by genre,
-              * integration with facebook
+              * integration with facebook.
               
           %nav.slides-navigation
             %p
@@ -116,7 +116,7 @@
               Buty Ortopedyczne
             %h3.slide-subtitle#overview
               Project Overview
-              %img{ :src => 'images/butyortopedyczne_thumb.png', :title => 'Buty Ortopedyczne' }
+              %img{ :src => '/images/butyortopedyczne_thumb.png', :title => 'Buty Ortopedyczne' }
           %p
             :markdown
               In a cooperation with advertising agency ([Agencja&nbsp;Reklamy&nbsp;Wenecja](http://www.wenecja.com.pl)), we've created a complete corporate identity of an orthopedic boots. The goal was simple &ndash; create a website with the latest boots collection. The page itself was meant to stay intact for the whole year. At the end of each year there will be a complete redesign.
@@ -130,14 +130,14 @@
               Buty Ortopedyczne
             %h3.slide-subtitle#responsibilities
               Responsibilities
-              %img{ :src => 'images/butyortopedyczne_thumb.png', :title => 'Buty Ortopedyczne' }
+              %img{ :src => '/images/butyortopedyczne_thumb.png', :title => 'Buty Ortopedyczne' }
           %p
             :markdown
               As a page is going to change once a year without any changes in between, we've decided to put up a static design. Although the site is composed in pure html, I have decided to create a very simple php templating engine. This helped me to conform with changing concepts during development.
               
               Basicly my responsibilities was to:
               * chop the photoshop layout,
-              * create a simple php templating engine
+              * create a simple php templating engine.
           %nav.slides-navigation
             %p
               %a{:href => '#/3/1'} press up arrow key to go back to project overview.
@@ -150,7 +150,7 @@
               AutoRadca.pl
             %h3.slide-subtitle#overview
               Project Overview
-              %img{ :src => 'images/autoradca_thumb.png', :title => 'AutoRadca' }
+              %img{ :src => '/images/autoradca_thumb.png', :title => 'AutoRadca' }
           %p
             :markdown
               The requirements for this project was to easly modify contents of a future page and to be visualy most appealing. To cut the costs, we used a template from [Theme Forest](http://themeforest.net). 
@@ -167,7 +167,7 @@
               AutoRadca.pl
             %h3.slide-subtitle#responsibilities
               Responsibilities
-              %img{ :src => 'images/autoradca_thumb.png', :title => 'AutoRadca' }
+              %img{ :src => '/images/autoradca_thumb.png', :title => 'AutoRadca' }
           %p
             :markdown
               In this fast paced project I was responsible for customizing a wordpress template and add some basic modifications in functionality.

@@ -26,5 +26,5 @@ end
 get '/portfolio/pl' do
   @body_class = :slides
   @suffix = '/pl'
-  haml :portfolio, :layout => :slides
+  haml :portfolio_pl
 end

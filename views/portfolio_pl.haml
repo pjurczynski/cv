@@ -1,0 +1,177 @@
+-content_for :scripts do
+  %script{ :src => "/js/slideshow.js" }
+
+%div.slides-help
+  %p Użyj klawiszy na klawiaturze do nawigacji.
+%article
+  %div#slides
+    %h1.page-title Portfolio
+    %nav.slides-navigation
+      %a{ :href => '#' } Portfolio: Spis treści
+    /#=1Table Of Contents =TOC
+    %section
+      %header
+        %h2.slide-title
+          Projekty:
+      %ul.boxes
+        %li.boxes-item
+          %a{ :href => '#/1' }
+            %h4 JaMamTo.com
+            %img{ :src => '/images/jamamto_thumb.png', :title => 'JaMamTo.com' }
+        %li.boxes-item
+          %a{ :href => '#/2' }
+            %h4 WydawnictwoRemi.pl
+            %img{ :src => '/images/remi_thumb.png', :title => 'Wydawnictwo Remi' }
+        %li.boxes-item
+          %a{ :href => '#/3' }
+            %h4 ButyOrtopedyczne.com
+            %img{ :src => '/images/butyortopedyczne_thumb.png', :title => 'Buty Ortopedyczne' }
+        %li.boxes-item
+          %a{ :href => '#/4' }
+            %h4 AutoRadca.pl
+            %img{ :src => '/images/autoradca_thumb.png', :title => 'AutoRadca' }
+    /#=2jamamto 
+    %section
+      /#=2.1jamamto 
+      %section
+        %header
+          %h2.slide-title
+            %a{ :href => 'http://jamamto.com' }
+              JaMamTo.com
+          %h3.slide-subtitle#overview
+            Opis projektu
+            %img{ :src => '/images/jamamto_thumb.png', :title => 'JaMamTo.com' }
+          %p
+            :markdown
+              Zostałem zrekrutowany do pracy nad portalem społecznościowy. Czynnikiem wyróżniającym ten projekt od innych było pozytywne nastawienie do świata. Wszystkie informacje jakie miały się pojawić na poratlu to same szczęśliwe i przyjazne wiadmości. Narzędzia, które powierzono nam wykonać, miały posiadać jakiś pierwiastek doborci np. Komplementator, który za zadanie miał prawić użytkownikowi komplementy wtedy kiedy tego pragnął.
+
+          %nav.slides-navigation
+            %p
+              %a{:href => '#/1/1'} Wciśnij strzałkę w dół na klawiaturze, aby zobaczyć za co byłem odpowiedzialny.
+
+      %section
+        %header
+          %h2.slide-title
+            %a{ :href => 'http://jamamto.com' }
+              JaMamTo.com
+          %h3.slide-subtitle#responsibilities
+            Obowiązki
+            %img{ :src => '/images/jamamto_thumb.png', :title => 'JaMamTo.com' }
+          %p
+            :markdown
+              Stworzenie launching page na podstwaie layoutu w photoshopie.
+              Strona miała zawierać między innymi poniższe funkcje:
+              * Licznik wyświetlający pozostałe dni do startu poratlu,
+              * Moduł newsletter'a - subskrypcja i wyświetlanie poprzednich wiadomości.
+
+              Do głównego portalu stworzyłem terminarz w formie widgetu. Inne widgety miały mieć możliwość komunikacji z nim za pomocą prostego API.
+
+          %nav.slides-navigation
+            %p
+              %a{:href => '#/1'} Wciśnij strzałkę w górę na klawiaturze, aby wrócić do opisu projektu.
+
+
+    /#=3wydawnictworemi
+    %section
+      %section
+        %header
+          %h2.slide-title
+            %a{ :href => 'http://wydawnictworemi.pl' }
+              Wydawnictwo Remi
+          %h3.slide-subtitle#overview
+            Opis projektu
+            %img{ :src => '/images/remi_thumb.png', :title => 'Wydawnictwo Remi' }
+          %p
+            :markdown
+              Celem projektu było stworzenei prostego archiwum wydawnictwa. Klient nie miał zamiaru sprzedawać swoich publikacji za pomocą serwisu, więc strona idealnie pasowała do silnika wordpress'a. Aby koszta były jak najmniejsze, właściciel zdecydował się na zakup odpowiedniego szablonu ze strony [Theme Forest](http://themeforest.net).
+
+          %nav.slides-navigation
+            %p
+              %a{:href => '#/2/1'} Wciśnij strzałkę w dół na klawiaturze, aby zobaczyć za co byłem odpowiedzialny.
+      /#=2.1
+      %section
+        %header
+          %h2.slide-title
+            %a{ :href => 'http://wydawnictworemi.pl' }
+              Wydawnictwo Remi
+          %h3.slide-subtitle#responsibilities
+            Obowiązki
+            %img{ :src => '/images/remi_thumb.png', :title => 'Wydawnictwo Remi' }
+          %p
+            :markdown
+              Dostosowałem szablon wordpress'a ze strony [Theme Forest](http://themeforest.net) oraz dodałem funkcjonalność:
+              * sortowanie książek według: autora, daty publikacji oraz gatunku,
+              * integracja strony z facebook'iem.
+              
+          %nav.slides-navigation
+            %p
+              %a{:href => '#/2'} Wciśnij strzałkę w górę na klawiaturze, aby wrócić do opisu projektu.
+
+    /#=4butyortopedyczne
+    %section
+      %section
+        %header
+          %h2.slide-title
+            %a{ :href => 'http://butyortopedyczne.pl' }
+              Buty Ortopedyczne
+            %h3.slide-subtitle#overview
+              Opis projektu
+              %img{ :src => '/images/butyortopedyczne_thumb.png', :title => 'Buty Ortopedyczne' }
+          %p
+            :markdown
+              We współpracy z Agencją reklamową ([Agencja&nbsp;Reklamy&nbsp;Wenecja](http://www.wenecja.com.pl)), stworzyliśmy pełną indentyfikacje wizualną producenta butów ortopedycznych. Cel witryny był prosty &endash; prezentacja ostatniej kolekcji. Ponadto całość ma być kompletnie przerabiana co roku.
+          %nav.slides-navigation
+            %p
+              %a{:href => '#/3/1'} Wciśnij strzałkę w dół na klawiaturze, aby zobaczyć za co byłem odpowiedzialny.
+      %section
+        %header
+          %h2.slide-title
+            %a{ :href => 'http://butyortopedyczne.pl' }
+              Buty Ortopedyczne
+            %h3.slide-subtitle#responsibilities
+              Obowiązki
+              %img{ :src => '/images/butyortopedyczne_thumb.png', :title => 'Buty Ortopedyczne' }
+          %p
+            :markdown
+              Jako, że witryna zmienia się jedynie raz wciągu całego roku, zdecydowaliśmy się na całkowicie statyczny design. Coprawda całość jest stworzona w czystym htmlu, zdecydowałem się zaprojektować bardzo prosty silnik do obsługi szablonów *(php)*. Dzięki temu udało mi się z łatwością dostosować do zmieniających się koncepcji podczas tworzenia serwisu.
+              Podsumowując, moimi obowiązkami było:
+              * pocięcie projektu w photoshopie,
+              * stworzenie prostego systemu szablonów.
+          %nav.slides-navigation
+            %p
+              %a{:href => '#/3/1'} Wciśnij strzałkę w górę na klawiaturze, aby wrócić do opisu projektu.
+    /#=5Autoradca
+    %section
+      %section
+        %header
+          %h2.slide-title
+            %a{ :href => 'http://autoradca.pl' }
+              AutoRadca.pl
+            %h3.slide-subtitle#overview
+              Opis projektu
+              %img{ :src => '/images/autoradca_thumb.png', :title => 'AutoRadca' }
+          %p
+            :markdown
+              Głównymi wymaganiami projektu były prostota w edycji zawartości strony oraz zachęcająca oprawa graficzna. By sprostać tym wymaganiom, a zarazem zmniejszyć koszty, użyliśmy gotowego szablonu ze strony [Theme Forest](http://themeforest.net).
+
+              Zlecenie było wykonywane pod presją czasu jako, że klient musiał mieć gotową stronę przed otwarciem firmy.
+              
+              This was a time critical project, as a client was days before opening the company.
+          %nav.slides-navigation
+            %p
+              %a{:href => '#/4/1'} Wciśnij strzałkę w górę na klawiaturze, aby wrócić do opisu projektu.
+      /#=4.1
+      %section
+        %header
+          %h2.slide-title
+            %a{ :href => 'http://autoradca.pl' }
+              AutoRadca.pl
+            %h3.slide-subtitle#responsibilities
+              Obowiązki
+              %img{ :src => '/images/autoradca_thumb.png', :title => 'AutoRadca' }
+          %p
+            :markdown
+              W krótkim czasie należało dostosować szablon wordpress'a do wymogów klienta oraz rozszerzyć niektóre funkcjonalności.
+          %nav.slides-navigation
+            %p
+              %a{:href => '#/4'} Wciśnij strzałkę w górę na klawiaturze, aby wrócić do opisu projektu.
