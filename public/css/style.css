@@ -810,7 +810,7 @@ li {
 article.cv section, article.portfolio section {
   border-bottom: 1px solid #cdb380;
   margin-bottom: -1px;
-  margin-top: 1.4em;
+  padding-top: 1.4em;
 }
 /* line 7, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
 article.cv h3, article.portfolio h3 {
