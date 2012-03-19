@@ -10,9 +10,16 @@ body
     @include column( 1000, 5 )
     @include prepend( 1000, 1 )
     height: 11.2em
-    h1, address
-      @include column( 830, 4)
+    h1
+      @include column( 830, 2.5)
+    address, .birthday
+      @include column( 830, 1.5)
       +omega
+    address, .subtitle
+      @include column( 830, 1.25 )
+    .birthday
+      padding-top: 2.1em
+      margin-bottom: 0.75em
     figure
       @include column( 830, 1 )
       +alpha

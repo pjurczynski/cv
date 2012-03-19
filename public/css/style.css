@@ -513,6 +513,11 @@ a:hover, a:visited:hover {
   margin: 0 0 0 5%;
 }
 
+/* line 114, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+.visually-hidden {
+  visibility: hidden;
+}
+
 /* line 4, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
 body {
   overflow-x: hidden;
@@ -533,14 +538,33 @@ body {
   height: 11.2em;
 }
 /* line 13, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
-#container > header h1, #container > header address {
+#container > header h1 {
   float: left;
-  width: 79.518%;
+  width: 48.795%;
+  margin-left: 1.205%;
+  margin-right: 1.205%;
+}
+/* line 15, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+#container > header address, #container > header .birthday {
+  float: left;
+  width: 28.313%;
   margin-left: 1.205%;
   margin-right: 1.205%;
   margin-right: 0;
 }
-/* line 16, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+/* line 18, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+#container > header address, #container > header .subtitle {
+  float: left;
+  width: 23.193%;
+  margin-left: 1.205%;
+  margin-right: 1.205%;
+}
+/* line 20, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+#container > header .birthday {
+  padding-top: 2.1em;
+  margin-bottom: 0.75em;
+}
+/* line 23, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
 #container > header figure {
   float: left;
   width: 18.072%;
@@ -548,7 +572,7 @@ body {
   margin-right: 1.205%;
   margin-left: 0;
 }
-/* line 20, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+/* line 27, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
 #container > footer {
   float: left;
   width: 15%;
@@ -560,7 +584,7 @@ body {
   top: 0;
   padding-top: 2.8em;
 }
-/* line 27, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+/* line 34, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
 #container > footer:after {
   width: 1.4em;
   height: 100%;
@@ -570,7 +594,7 @@ body {
   content: " ";
 }
 
-/* line 35, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+/* line 42, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
 #main {
   float: left;
   width: 83%;
@@ -580,7 +604,7 @@ body {
   margin-right: 0;
 }
 
-/* line 44, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+/* line 51, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
 section {
   width: 100%;
   overflow: hidden;
