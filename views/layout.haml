@@ -47,9 +47,14 @@
                 print
                 %span.icon-print.icon
             %li
-              %a{ :href => 'portfolio' + @suffix }
-                portfolio
-                %span.icon-portfolio.icon
+              -if /\/portfolio/ =~ @url 
+                %a{ :href => @prefix + '/' }
+                  resume
+                  %span.icon-cv.icon
+              -else
+                %a{ :href => @prefix + '/portfolio' }
+                  portfolio
+                  %span.icon-portfolio.icon
     -# end of #container
     
     -# Javascript at the bottom for fast page loading

@@ -2,12 +2,12 @@
   %script{ :src => "/js/slideshow.js" }
 
 %div.slides-help
-  %p Użyj klawiszy na klawiaturze do nawigacji.
+  %p Użyj klawiszy na klawiaturze do nawigacji. (kliknij aby zamknąć pomoc)
 %article
+  %nav.slides-navigation
+    %a{ :href => '#' } Portfolio: Spis treści
   %div#slides
     %h1.page-title Portfolio
-    %nav.slides-navigation
-      %a{ :href => '#' } Portfolio: Spis treści
     /#=1Table Of Contents =TOC
     %section
       %header
