@@ -1,5 +1,6 @@
 source :rubygems
-gem 'sinatra', :require => 'content_for'
+gem 'sinatra'
+gem 'sinatra-contrib'
 gem 'thin', '1.2.7'
 gem 'haml'
 gem 'sass'
