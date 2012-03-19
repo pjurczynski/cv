@@ -30,6 +30,7 @@
       text-align: left
       margin: 0 auto
       .slides-navigation
+        top: 0
         position: static
         font-weight: bold
 
@@ -77,8 +78,9 @@
 
   .slides-navigation
     position: absolute
-    top: 0
-    right: 5%
+    top: -2.8em
+    width: 100%
+    left: 80%
     z-index: 200
     font-style: italic
     a
@@ -112,5 +114,6 @@
       +single-transition()
       margin: 0 0 -0.9em -4%
     .slides-navigation
+      +single-transition()
       left: -4%
       top: -2.8em

@@ -34,19 +34,9 @@
       For optimal performance, use a custom Modernizr build: www.modernizr.com/download/
     %script{ :src => "js/modernizr-2.0.6.min.js" }
     
-  %body
+  %body{ :class => @body_class }
     #container
-      %header
-        %figure
-          %img{ :src => 'images/peter-jurczynski.jpg', :alt => "Peter Jurczyński", :title => "Peter Jurczyński"} 
-        %h1 Piotr Jurczyński
-        %address
-          %p
-            %span.icon.icon-poland_flag
-              Poland
-          %p
-            %a{ :href => 'mailto:pjurczynski@gmail.com' }
-              pjurczynski@gmail.com
+      = yield_content :header
       #main{ :role => 'main' }
         =yield
       %footer
@@ -91,3 +81,4 @@
     %script
       window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})});
     <![endif]-->
+    =yield_content :scripts
