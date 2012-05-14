@@ -316,34 +316,39 @@ td {
   padding: 0.2em 0;
 }
 
-/* line 51, ../../icon */
-.icon-sprite, .icon-cv, .icon-poland_flag, .icon-portfolio, .icon-print, .icon-top_bg {
-  background: url('/images/icon-sf765803c2b.png') no-repeat;
+/* line 82, icon/*.png */
+.icon-sprite, .icon-cv, .icon-github, .icon-poland_flag, .icon-portfolio, .icon-print, .icon-top_bg {
+  background: url('/images/icon-s96717cdb2e.png') no-repeat;
 }
 
-/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-cv {
+  background-position: 0 -73px;
+}
+
+/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-github {
   background-position: 0 0;
 }
 
-/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-poland_flag {
+  background-position: 0 -106px;
+}
+
+/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-portfolio {
   background-position: 0 -33px;
 }
 
-/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-portfolio {
-  background-position: 0 -49px;
-}
-
-/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-print {
-  background-position: 0 -89px;
+  background-position: 0 -122px;
 }
 
-/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-top_bg {
-  background-position: 0 -123px;
+  background-position: 0 -156px;
 }
 
 /* line 12, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
@@ -390,9 +395,8 @@ footer:after {
 }
 /* line 55, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 footer li {
-  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin-bottom: 1.4em;
   padding-right: 2.8em;
@@ -408,14 +412,11 @@ footer a {
   color: #e8ddcb;
   text-decoration: none;
   white-space: nowrap;
-  -moz-transition-property: color;
-  -webkit-transition-property: color;
-  -o-transition-property: color;
-  transition-property: color;
-  -moz-transition-duration: 1s;
-  -webkit-transition-duration: 1s;
-  -o-transition-duration: 1s;
-  transition-duration: 1s;
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  -ms-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s false;
 }
 /* line 70, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 footer a:visited {
@@ -437,14 +438,11 @@ footer a:hover .icon {
   width: 38px;
   height: 34px;
   background-color: #016564;
-  -moz-transition-property: background-color;
-  -webkit-transition-property: background-color;
-  -o-transition-property: background-color;
-  transition-property: background-color;
-  -moz-transition-duration: 1s;
-  -webkit-transition-duration: 1s;
-  -o-transition-duration: 1s;
-  transition-duration: 1s;
+  -webkit-transition: background-color 1s;
+  -moz-transition: background-color 1s;
+  -ms-transition: background-color 1s;
+  -o-transition: background-color 1s;
+  transition: background-color 1s false;
 }
 
 /* line 84, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
@@ -458,6 +456,12 @@ footer a:hover .icon {
 }
 
 /* line 90, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+.icon-github {
+  height: 33px;
+  width: 33px;
+}
+
+/* line 94, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 .icon-poland_flag {
   padding-left: 36px;
   text-transform: uppercase;
@@ -466,54 +470,46 @@ footer a:hover .icon {
   background-color: transparent;
 }
 
-/* line 97, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 101, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 img {
-  -moz-box-shadow: 0 0 10px #cdb380;
-  -webkit-box-shadow: 0 0 10px #cdb380;
-  -o-box-shadow: 0 0 10px #cdb380;
-  box-shadow: 0 0 10px #cdb380;
-  -moz-transition-property: all;
-  -webkit-transition-property: all;
-  -o-transition-property: all;
-  transition-property: all;
-  -moz-transition-duration: 500ms;
-  -webkit-transition-duration: 500ms;
-  -o-transition-duration: 500ms;
-  transition-duration: 500ms;
-  -moz-border-radius: 10px;
+  -webkit-box-shadow: #cdb380, 0, 0, 10px;
+  -moz-box-shadow: #cdb380, 0, 0, 10px;
+  box-shadow: #cdb380, 0, 0, 10px;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms false;
   -webkit-border-radius: 10px;
-  -o-border-radius: 10px;
+  -moz-border-radius: 10px;
   -ms-border-radius: 10px;
-  -khtml-border-radius: 10px;
+  -o-border-radius: 10px;
   border-radius: 10px;
   margin: 0 2% 0.35em;
 }
 
-/* line 103, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 107, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 a, a:visited {
   text-decoration: none;
   color: #016564;
 }
-/* line 106, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 110, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 a:hover, a:visited:hover {
-  -moz-transition-property: color;
-  -webkit-transition-property: color;
-  -o-transition-property: color;
-  transition-property: color;
-  -moz-transition-duration: 1s;
-  -webkit-transition-duration: 1s;
-  -o-transition-duration: 1s;
-  transition-duration: 1s;
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  -ms-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s false;
   color: #238786;
 }
 
-/* line 110, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 114, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 .page-title {
   text-align: left;
   margin: 0 0 0 5%;
 }
 
-/* line 114, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 118, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 .visually-hidden {
   visibility: hidden;
 }
@@ -787,14 +783,11 @@ li {
   text-align: center;
   background: #016564;
   display: none;
-  -moz-transition-property: all;
-  -webkit-transition-property: all;
-  -o-transition-property: all;
-  transition-property: all;
-  -moz-transition-duration: 1s;
-  -webkit-transition-duration: 1s;
-  -o-transition-duration: 1s;
-  transition-duration: 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s false;
   overflow: hidden;
   cursor: pointer;
 }
@@ -805,26 +798,20 @@ li {
 @media only screen and (min-width: 1500px) {
   /* line 113, /media/sf_praca/about_me/page/cv/sass/partials/_slides.sass */
   .js .page-title {
-    -moz-transition-property: all;
-    -webkit-transition-property: all;
-    -o-transition-property: all;
-    transition-property: all;
-    -moz-transition-duration: 1s;
-    -webkit-transition-duration: 1s;
-    -o-transition-duration: 1s;
-    transition-duration: 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s false;
     margin: 0 0 -0.9em -4%;
   }
   /* line 116, /media/sf_praca/about_me/page/cv/sass/partials/_slides.sass */
   .js .slides-navigation {
-    -moz-transition-property: all;
-    -webkit-transition-property: all;
-    -o-transition-property: all;
-    transition-property: all;
-    -moz-transition-duration: 1s;
-    -webkit-transition-duration: 1s;
-    -o-transition-duration: 1s;
-    transition-duration: 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s false;
     left: 2%;
     top: -2.8em;
   }
@@ -857,9 +844,8 @@ ul.details {
 }
 /* line 16, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
 ul.details > li {
-  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   border-bottom: 1px solid #cdb380;
   margin-bottom: 1.333em;
@@ -886,10 +872,10 @@ ul.details time {
   text-align: right;
   position: absolute;
   left: -26.132%;
-  -moz-transform-origin: right top;
   -webkit-transform-origin: right top;
-  -o-transform-origin: right top;
+  -moz-transform-origin: right top;
   -ms-transform-origin: right top;
+  -o-transform-origin: right top;
   transform-origin: right top;
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
@@ -961,10 +947,9 @@ ul.details-resp-list {
 }
 /* line 19, /media/sf_praca/about_me/page/cv/sass/partials/_boxes.sass */
 .boxes-item a:hover img {
-  -moz-box-shadow: 0 0 20px white;
-  -webkit-box-shadow: 0 0 20px white;
-  -o-box-shadow: 0 0 20px white;
-  box-shadow: 0 0 20px white;
+  -webkit-box-shadow: white, 0, 0, 20px;
+  -moz-box-shadow: white, 0, 0, 20px;
+  box-shadow: white, 0, 0, 20px;
 }
 
 @media only screen and (min-width: 480px) {
