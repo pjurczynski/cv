@@ -1,0 +1,56 @@
+# app/decorators/feed.rb
+module Feed
+  def responsive_image_size
+    :medium
+  end
+  def span_class
+    'span4'
+  end
+end
+
+# app/controllers/outfit_controller.rb
+  def index
+    # ... #
+    respond_to do |format|
+      format.json do
+        self.formats = [:json, :html]
+        render :json => { :html => render_to_string( @outfits.each { |o| o.extend Feed } ), :message => :ok }
+      end
+      format.html
+    end
+  end
+  # ... #
+
+# app/views/outfits/show.html.haml
+  # ... #
+  = render @outfit.extend( Important ).extend( WithOutfitMap )
+  = render @outfit.#...#.each { |o| o.extend( Small ).extend( MoreLink ) }
+  = render @outfit.#...#.each { |o| o.extend( Feed ) }
+  # ... #
+
+# app/views/outfits/_outfit.html.haml
+.outfit{ :class => span_for( outfit ) }
+  - map = outfit_map( outfit )
+  - responsive_image(outfit.image, outfit.responsive_image_size, "#{outfit.title} (#{outfit.id})" , &map)
+  = render 'partials/like_box', :object => outfit
+  # ... #
+
+# app/views/partials/_like_box.html.haml
+  .like_box
+    %a.btn.block{ :href => favourites_path(:type => object.as_param, :id => object.id),
+      :class => object.is_liked_by?(current_user) ? 'btn-primary disabled' : 'btn-default',
+      :rel => :nofollow  }
+  # ... #
+
+# app/helpers/outfit_helper.rb
+  def outfit_map( outfit )
+    if outfit.outfit_map?
+      # if outfit.
+      lambda do
+        # ... #
+      end
+    end
+  rescue NoMethodError => e
+    raise e unless e.name == :outfit_map?
+    lambda {  }
+  end

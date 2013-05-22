@@ -15,14 +15,21 @@ body
     address, .birthday
       @include column( 830, 1.5)
       +omega
-    address, .subtitle
-      @include column( 830, 1.25 )
+    address
+      @include column( 830, 4 )
+      @include omega
     .birthday
       padding-top: 2.1em
       margin-bottom: 0.75em
     figure
       @include column( 830, 1 )
       +alpha
+    .contact
+      .full
+        @include column( 830, 4 )
+        @include omega
+      .third
+        @include column( 830, 1.25 )
 
   > footer
     @include column( 1000, 1 )

@@ -5,21 +5,18 @@
     %h1 Piotr Jurczyński
     %p.birthday
       birth: 8th July 1987
-    %p.subtitle
-      %span.icon.icon-poland_flag
-        Poland
-      %br
-      %span.icon.icon-poland_flag.visually-hidden
-      793 704 999
-      %br
-        %a{ :href => 'mailto:pjurczynski@gmail.com' }
-          %br
-            %span.icon.icon-poland_flag.visually-hidden
-            pjurczynski@gmail.com
     %address
       %p
-        Czarnowiejska 97a/9
-        %br 30-049 Cracow
+        %span.icon.icon-italy_flag
+        Living in Pordenone / Italy 
+    .contact
+      %p.full
+        %span.icon.icon-poland_flag
+        +48 793 704 999
+    .contact
+      %p.full
+        %a{ :href => 'mailto:pjurczynski@gmail.com' }
+          pjurczynski@gmail.com
 
 %article.cv
   %section
@@ -31,7 +28,7 @@
         %div.details-description
           %p
             Working at 
-            %a{ :href => 'http://allani.pl' } allani.pl
+            %a{ :href => 'http://allani.pl', :rel => :nofollow } allani.pl
             A startup project in Ruby on Rails
 
           %div.details-resp
@@ -39,32 +36,34 @@
               responsibilities
             %ul.details-resp-list
               %li
+                Creating a base of the international website (
+                %a{ :href => 'http://allani.com', :rel => :nofollow }<> allani.com
+                ). 
+                %em  (js/RoR/Responsive Web Design)
+              %li
                 Recreating functionality of the `creator`
                 %em  (js/mustache/RoR)
               %li
                 Developing landing pages based on mock-ups
                 %em (js/RoR)
-              %li
-                Creation and maintenance of internal CRM
-                %em (php/jquery/html/css)
       %li
         %time
           2010 &ndash; 2012
         %div.details-description
           %p
             Working at the Advertising Agency
-            %a{ :href => 'http://www.wenecja.com.pl' } www.wenecja.com.pl
+            %a{ :href => 'http://www.wenecja.com.pl', :rel => :nofollow } www.wenecja.com.pl
           %div.details-resp
             %h4.details-resp-header
               responsibilities
             %ul.details-resp-list
               %li
                 Create a page for
-                %a{ :href => 'http://www.butyortopedyczne.com'} ButyOrtopedyczne.com
+                %a{ :href => 'http://www.butyortopedyczne.com', :rel => :nofollow} ButyOrtopedyczne.com
                 %em (php/jquery/html/css)
               %li
                 Create a page for
-                %a{ :href => 'http://rekma.pl'} rekma.pl
+                %a{ :href => 'http://rekma.pl', :rel => :nofollow} rekma.pl
                 on an existing internal CMS
               %li
                 Creation and maintenance of internal CRM
@@ -76,7 +75,7 @@
         %div.details-description
           %p
             Working at the Law Firm
-            %a{ :href => 'http://ck-legal.pl' } ck-legal.pl
+            %a{ :href => 'http://ck-legal.pl', :rel => :nofollow } ck-legal.pl
           %div.details-resp
             %h4.details-resp-header
               responsibilities
@@ -143,8 +142,8 @@
             %h4.details-resp-header
               2013
             %ul.details-resp-list
-              %li FrontTrends 2013 in Warsaw
-              %li wroc_love_rb
+              %li FrontTrends 2013 in Warsaw/Poland
+              %li wroc_love_rb in Wroclaw/Poland
   %section
     %h3 Skills
     %ul.details

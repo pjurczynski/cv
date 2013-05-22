@@ -1,105 +1,105 @@
-/* line 34, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 34, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
   display: block;
 }
 
-/* line 35, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 35, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 audio, canvas, video {
   display: inline-block;
   *display: inline;
   *zoom: 1;
 }
 
-/* line 36, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 36, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 audio:not([controls]) {
   display: none;
 }
 
-/* line 37, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 37, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 [hidden] {
   display: none;
 }
 
-/* line 48, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 48, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
-/* line 50, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 50, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 html, button, input, select, textarea {
   font-family: "arial", sans-serif;
   color: #033649;
 }
 
-/* line 52, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 52, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 body {
   margin: 0;
   font-size: 0.938em;
   line-height: 1.4;
 }
 
-/* line 62, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 62, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 ::-moz-selection {
   background: #033649;
   color: white;
   text-shadow: none;
 }
 
-/* line 63, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 63, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 ::selection {
   background: #033649;
   color: white;
   text-shadow: none;
 }
 
-/* line 71, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 71, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 a {
   color: #033649;
 }
 
-/* line 72, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 72, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 a:visited {
   color: #033649;
 }
 
-/* line 73, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 73, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 a:hover {
   color: #033649;
 }
 
-/* line 74, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 74, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 a:focus {
   outline: thin dotted;
 }
 
-/* line 77, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 77, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 a:hover, a:active {
   outline: 0;
 }
 
-/* line 85, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 85, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 87, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 87, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 b, strong {
   font-weight: bold;
 }
 
-/* line 89, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 89, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 blockquote {
   margin: 1em 40px;
 }
 
-/* line 91, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 91, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 93, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 93, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 hr {
   display: block;
   height: 1px;
@@ -109,14 +109,14 @@ hr {
   padding: 0;
 }
 
-/* line 95, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 95, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 ins {
   background: #ff9;
   color: #000;
   text-decoration: none;
 }
 
-/* line 97, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 97, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -124,37 +124,37 @@ mark {
   font-weight: bold;
 }
 
-/* line 100, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 100, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 pre, code, kbd, samp {
   font-family: monospace, serif;
   _font-family: 'courier new', monospace;
   font-size: 1em;
 }
 
-/* line 103, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 103, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-/* line 105, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 105, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 q {
   quotes: none;
 }
 
-/* line 106, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 106, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 q:before, q:after {
   content: "";
   content: none;
 }
 
-/* line 108, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 108, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 small {
   font-size: 85%;
 }
 
-/* line 111, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 111, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 sub, sup {
   font-size: 75%;
   line-height: 0;
@@ -162,28 +162,28 @@ sub, sup {
   vertical-align: baseline;
 }
 
-/* line 112, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 112, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 113, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 113, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 121, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 121, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 ul, ol {
   margin: 1em 0;
   padding: 0 0 0 40px;
 }
 
-/* line 122, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 122, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 dd {
   margin: 0 0 0 40px;
 }
 
-/* line 123, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 123, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 nav ul, nav ol {
   list-style: none;
   list-style-image: none;
@@ -191,41 +191,41 @@ nav ul, nav ol {
   padding: 0;
 }
 
-/* line 134, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 134, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 img {
   border: 0;
   -ms-interpolation-mode: bicubic;
   vertical-align: middle;
 }
 
-/* line 138, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 138, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 146, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 146, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 figure {
   margin: 0;
 }
 
-/* line 154, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 154, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 form {
   margin: 0;
 }
 
-/* line 155, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 155, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-/* line 158, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 158, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 label {
   cursor: pointer;
 }
 
-/* line 163, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 163, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 legend {
   border: 0;
   *margin-left: -7px;
@@ -233,7 +233,7 @@ legend {
   white-space: normal;
 }
 
-/* line 169, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 169, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 button, input, select, textarea {
   font-size: 100%;
   margin: 0;
@@ -241,24 +241,24 @@ button, input, select, textarea {
   *vertical-align: middle;
 }
 
-/* line 173, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 173, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 button, input {
   line-height: normal;
 }
 
-/* line 179, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 179, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   cursor: pointer;
   -webkit-appearance: button;
   *overflow: visible;
 }
 
-/* line 183, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 183, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 button[disabled], input[disabled] {
   cursor: default;
 }
 
-/* line 187, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 187, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
@@ -266,7 +266,7 @@ input[type="checkbox"], input[type="radio"] {
   *height: 13px;
 }
 
-/* line 188, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 188, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
@@ -274,41 +274,41 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/* line 189, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 189, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
 }
 
-/* line 193, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 193, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 198, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 198, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 textarea {
   overflow: auto;
   vertical-align: top;
   resize: vertical;
 }
 
-/* line 202, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 202, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 input:invalid, textarea:invalid {
   background-color: #f0dddd;
 }
 
-/* line 210, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 210, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 211, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
+/* line 211, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_normalize.scss */
 td {
   vertical-align: top;
 }
 
-/* line 6, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_chromeframe.scss */
+/* line 6, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_chromeframe.scss */
 .chromeframe {
   margin: 0.2em 0;
   background: #ccc;
@@ -316,39 +316,44 @@ td {
   padding: 0.2em 0;
 }
 
-/* line 82, icon/*.png */
-.icon-sprite, .icon-cv, .icon-github, .icon-poland_flag, .icon-portfolio, .icon-print, .icon-top_bg {
-  background: url('/images/icon-s96717cdb2e.png') no-repeat;
+/* line 63, icon */
+.icon-sprite, .icon-cv, .icon-github, .icon-italy_flag, .icon-poland_flag, .icon-portfolio, .icon-print, .icon-top_bg {
+  background: url('/images/icon-s53f08d6335.png') no-repeat;
 }
 
-/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-cv {
-  background-position: 0 -73px;
-}
-
-/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-github {
   background-position: 0 0;
 }
 
-/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-poland_flag {
-  background-position: 0 -106px;
-}
-
-/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-portfolio {
+/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-github {
   background-position: 0 -33px;
 }
 
-/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-print {
-  background-position: 0 -122px;
+/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-italy_flag {
+  background-position: 0 -66px;
 }
 
-/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-poland_flag {
+  background-position: 0 -82px;
+}
+
+/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-portfolio {
+  background-position: 0 -98px;
+}
+
+/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-print {
+  background-position: 0 -138px;
+}
+
+/* line 60, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-top_bg {
-  background-position: 0 -156px;
+  background-position: 0 -172px;
 }
 
 /* line 12, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
@@ -395,8 +400,9 @@ footer:after {
 }
 /* line 55, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 footer li {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
   box-sizing: border-box;
   margin-bottom: 1.4em;
   padding-right: 2.8em;
@@ -412,11 +418,14 @@ footer a {
   color: #e8ddcb;
   text-decoration: none;
   white-space: nowrap;
-  -webkit-transition: color 1s;
-  -moz-transition: color 1s;
-  -ms-transition: color 1s;
-  -o-transition: color 1s;
-  transition: color 1s false;
+  -moz-transition-property: color;
+  -webkit-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
 }
 /* line 70, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 footer a:visited {
@@ -438,11 +447,14 @@ footer a:hover .icon {
   width: 38px;
   height: 34px;
   background-color: #016564;
-  -webkit-transition: background-color 1s;
-  -moz-transition: background-color 1s;
-  -ms-transition: background-color 1s;
-  -o-transition: background-color 1s;
-  transition: background-color 1s false;
+  -moz-transition-property: background-color;
+  -webkit-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
 }
 
 /* line 84, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
@@ -462,7 +474,12 @@ footer a:hover .icon {
 }
 
 /* line 94, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
-.icon-poland_flag {
+.icon-italy_flag {
+  background-position: 0 -65px;
+}
+
+/* line 97, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+.icon-poland_flag, .icon-italy_flag {
   padding-left: 36px;
   text-transform: uppercase;
   display: inline;
@@ -470,46 +487,54 @@ footer a:hover .icon {
   background-color: transparent;
 }
 
-/* line 101, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 104, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 img {
-  -webkit-box-shadow: #cdb380, 0, 0, 10px;
-  -moz-box-shadow: #cdb380, 0, 0, 10px;
-  box-shadow: #cdb380, 0, 0, 10px;
-  -webkit-transition: all 500ms;
-  -moz-transition: all 500ms;
-  -ms-transition: all 500ms;
-  -o-transition: all 500ms;
-  transition: all 500ms false;
-  -webkit-border-radius: 10px;
+  -moz-box-shadow: 0 0 10px #cdb380;
+  -webkit-box-shadow: 0 0 10px #cdb380;
+  -o-box-shadow: 0 0 10px #cdb380;
+  box-shadow: 0 0 10px #cdb380;
+  -moz-transition-property: all;
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 500ms;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
   -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
+  -webkit-border-radius: 10px;
   -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
   border-radius: 10px;
   margin: 0 2% 0.35em;
 }
 
-/* line 107, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 110, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 a, a:visited {
   text-decoration: none;
   color: #016564;
 }
-/* line 110, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 113, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 a:hover, a:visited:hover {
-  -webkit-transition: color 1s;
-  -moz-transition: color 1s;
-  -ms-transition: color 1s;
-  -o-transition: color 1s;
-  transition: color 1s false;
+  -moz-transition-property: color;
+  -webkit-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
   color: #238786;
 }
 
-/* line 114, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 117, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 .page-title {
   text-align: left;
   margin: 0 0 0 5%;
 }
 
-/* line 118, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
+/* line 121, /media/sf_praca/about_me/page/cv/sass/partials/_base.sass */
 .visually-hidden {
   visibility: hidden;
 }
@@ -549,18 +574,19 @@ body {
   margin-right: 0;
 }
 /* line 18, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
-#container > header address, #container > header .subtitle {
+#container > header address {
   float: left;
-  width: 23.193%;
+  width: 79.518%;
   margin-left: 1.205%;
   margin-right: 1.205%;
+  margin-right: 0;
 }
-/* line 20, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+/* line 21, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
 #container > header .birthday {
   padding-top: 2.1em;
   margin-bottom: 0.75em;
 }
-/* line 23, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+/* line 24, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
 #container > header figure {
   float: left;
   width: 18.072%;
@@ -568,7 +594,22 @@ body {
   margin-right: 1.205%;
   margin-left: 0;
 }
-/* line 27, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+/* line 28, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+#container > header .contact .full {
+  float: left;
+  width: 79.518%;
+  margin-left: 1.205%;
+  margin-right: 1.205%;
+  margin-right: 0;
+}
+/* line 31, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+#container > header .contact .third {
+  float: left;
+  width: 23.193%;
+  margin-left: 1.205%;
+  margin-right: 1.205%;
+}
+/* line 34, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
 #container > footer {
   float: left;
   width: 15%;
@@ -580,7 +621,7 @@ body {
   top: 0;
   padding-top: 2.8em;
 }
-/* line 34, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+/* line 41, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
 #container > footer:after {
   width: 1.4em;
   height: 100%;
@@ -590,7 +631,7 @@ body {
   content: " ";
 }
 
-/* line 42, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+/* line 49, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
 #main {
   float: left;
   width: 83%;
@@ -600,7 +641,7 @@ body {
   margin-right: 0;
 }
 
-/* line 51, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
+/* line 58, /media/sf_praca/about_me/page/cv/sass/partials/_layout.sass */
 section {
   width: 100%;
   overflow: hidden;
@@ -783,11 +824,14 @@ li {
   text-align: center;
   background: #016564;
   display: none;
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -ms-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s false;
+  -moz-transition-property: all;
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
   overflow: hidden;
   cursor: pointer;
 }
@@ -798,20 +842,26 @@ li {
 @media only screen and (min-width: 1500px) {
   /* line 113, /media/sf_praca/about_me/page/cv/sass/partials/_slides.sass */
   .js .page-title {
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -ms-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s false;
+    -moz-transition-property: all;
+    -webkit-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -moz-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
     margin: 0 0 -0.9em -4%;
   }
   /* line 116, /media/sf_praca/about_me/page/cv/sass/partials/_slides.sass */
   .js .slides-navigation {
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -ms-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s false;
+    -moz-transition-property: all;
+    -webkit-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -moz-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
     left: 2%;
     top: -2.8em;
   }
@@ -844,8 +894,9 @@ ul.details {
 }
 /* line 16, /media/sf_praca/about_me/page/cv/sass/partials/_cv.sass */
 ul.details > li {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
   box-sizing: border-box;
   border-bottom: 1px solid #cdb380;
   margin-bottom: 1.333em;
@@ -872,10 +923,10 @@ ul.details time {
   text-align: right;
   position: absolute;
   left: -26.132%;
-  -webkit-transform-origin: right top;
   -moz-transform-origin: right top;
-  -ms-transform-origin: right top;
+  -webkit-transform-origin: right top;
   -o-transform-origin: right top;
+  -ms-transform-origin: right top;
   transform-origin: right top;
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
@@ -947,9 +998,10 @@ ul.details-resp-list {
 }
 /* line 19, /media/sf_praca/about_me/page/cv/sass/partials/_boxes.sass */
 .boxes-item a:hover img {
-  -webkit-box-shadow: white, 0, 0, 20px;
-  -moz-box-shadow: white, 0, 0, 20px;
-  box-shadow: white, 0, 0, 20px;
+  -moz-box-shadow: 0 0 20px white;
+  -webkit-box-shadow: 0 0 20px white;
+  -o-box-shadow: 0 0 20px white;
+  box-shadow: 0 0 20px white;
 }
 
 @media only screen and (min-width: 480px) {
@@ -959,7 +1011,7 @@ ul.details-resp-list {
   /* Style adjustments for viewports 768px and over go here */
 }
 @media print {
-  /* line 11, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  /* line 11, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -969,43 +1021,43 @@ ul.details-resp-list {
     -ms-filter: none !important;
   }
 
-  /* line 12, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  /* line 12, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
   a, a:visited {
     text-decoration: underline;
   }
 
-  /* line 13, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  /* line 13, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 14, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  /* line 14, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 15, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  /* line 15, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: "";
   }
 
-  /* line 16, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  /* line 16, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 17, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  /* line 17, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
   thead {
     display: table-header-group;
   }
 
-  /* line 18, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  /* line 18, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
   tr, img {
     page-break-inside: avoid;
   }
 
-  /* line 19, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  /* line 19, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
   img {
     max-width: 100% !important;
   }
@@ -1014,13 +1066,13 @@ ul.details-resp-list {
     margin: 0.5cm;
 }
 
-  /* line 21, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  /* line 21, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 22, /home/merstzik/.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
+  /* line 22, /home/merstzik/.rvm/gems/ruby-1.9.3-p0@sinatra/gems/compass-h5bp-0.0.5/stylesheets/h5bp/_media.scss */
   h2, h3 {
     page-break-after: avoid;
   }

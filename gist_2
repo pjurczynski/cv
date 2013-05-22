@@ -1,0 +1,25 @@
+class Feed
+  constructor: (@link)->
+    @link.on 'click', @_disable_link
+    @link.on 'ajax:success', @_enable_link
+    @link.on 'ajax:success', @_update_feed
+
+  _update_feed: (e, data)=>
+    if data.message == 'no_products'
+      @remove_link
+    else if data.message == 'ok'
+      $( @link.data('target') ).append( data.html )
+      @link.data('page', parseInt( @link.data('page') ) + 1)
+      @link.attr('href', @link.attr('href').replace(/page=\d*/, 'page=' + @link.data('page')))
+
+  _disable_link: =>
+    @link.addClass('disabled')
+
+  _enable_link: =>
+    @link.removeClass('disabled')
+
+  _remove_link: =>
+    @link.remove()
+
+$(document).ready ->
+  new Feed $('.load-feed')
