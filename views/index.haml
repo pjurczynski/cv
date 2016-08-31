@@ -7,14 +7,16 @@
       birth: 8th July 1987
     %address
       %p
-        %span.icon.icon-italy_flag
-        Living in Pordenone (PN) / Italy 
+        %span.icon.icon-poland_flag
+        Living in Cracow / Poland
     .contact
       %p.full
-        %span.icon.icon-italy_flag
-        +39 366 478 4328
     .contact
       %p.full
+        phone: +48 793 704 999
+        %br
+        skype: drizzt_dourden_
+        %br
         %a{ :href => 'mailto:pjurczynski@gmail.com' }
           pjurczynski@gmail.com
 
@@ -22,14 +24,113 @@
   %section
     %h3 Experience
     %ul.details.with-time
+
+      %li
+        %time
+          2015 &ndash; 2016
+        %div.details-description
+          %p
+            Senior Ruby on Rails Developer at Ruby on Rails consultant agency
+            %a{ :href => 'https://www.netguru.co/', :rel => :nofollow } netguru sp. z o. o.
+
+          %div.details-resp
+            %h4.details-resp-header
+              %a{ :href => 'https://chorus.semel.ucla.edu/', :rel => :nofollow }<>
+                Chorus
+            %ul.details-resp-list
+              Chorus is a participatory mobile health framework and web application to enable patients, providers, researchers, and community leaders to create their own personalized mobile health interventions and share them with each other.
+              %br
+              %em Technology stack: Rails 4.2.x, Mysql, AngularJS 1.3.x, Redis, Sidekiq
+              %li
+                Refactor and optimize database to handle more user tables
+              %li
+                Redesign composer section
+              %li
+                Support client "somatomap" application in new architecture
+              %li
+                Migrate and join databases from multiple production servers
+
+          %div.details-resp
+            %h4.details-resp-header
+              %a{ :href => 'https://harborpathpap.com/users/sign_in', :rel => :nofollow }<>
+                Harbor Path
+            %ul.details-resp-list
+              HarborPath is a non-profit organization whose goal is to bring medications to individuals who otherwise could not afford treatment.
+              %br
+              %em Technology stack: Rails 4.2.x, Postgresql, Ember.js 1.x, Elasticsearch 0.8, Redis, Sidekiq, cron
+              %li
+                Tech lead
+              %li
+                Build API in rails API
+              %li
+                Convert htmls to pdfs
+              %li
+                Configure and build ElasticSearch queries
+              %li
+                Integrate MedVantx API
+
+            %h4.details-resp-header
+              %a{ :href => 'https://chorus.semel.ucla.edu/', :rel => :nofollow }<>
+                Other Responsibilities
+
+            %ul.details-resp-list
+              %li As a senior developer in netguru, I was responsible for maintaining and curating the default stack for our applications.
+              %li I was recognized as a leader and have been assigned with a group of developers (6-8) to oversee their progress and plan their growth.
+
+      %li
+        %time
+          2013 &ndash; 2015
+        %div.details-description
+          %p
+            Ruby on Rails Developer at Ruby on Rails consultant agency
+            %a{ :href => 'https://www.netguru.co/', :rel => :nofollow } netguru sp. z o. o.
+          %div.details-resp
+            %h4.details-resp-header
+              %a{ :href => 'https://www.transterramedia.com/', :rel => :nofollow }<>
+                Transterra Media
+            %ul.details-resp-list
+              An international newsroom platform with a continually updated database of ready-made video and photo content that is available for immediate purchase.
+              %br
+              %em Technology stack: Rails 4.0.13, MySQL, Backbone, Marionette, Salesforce
+              %li
+                refactor mappers for Salesforce
+              %li
+                Build "Buyers Experience" interface to manage users options
+              %li
+                Integrate Media and Users with Salesforce entities
+              %li
+                Build a middleware for easier testing of developers code on their machines and salesforce
+
+          %div.details-resp
+            %h4.details-resp-header
+              %a{ :href => 'https://github.com/netguru/devise-ios-rails-example', :rel => :nofollow }<>
+                devise ios integration example
+            %ul.details-resp-list
+              %em Technology stack: Rails 4.1.x, PostgreSQL, Grape
+              %li
+                Expose Devise API for iOS team
+
+          %div.details-resp
+            %h4.details-resp-header
+              %a{ :href => 'http://storiesofchange.worldpressphoto.org/', :rel => :nofollow }<>
+                World Press Photo - Reports of Change
+            %ul.details-resp-list
+              A gorgeous online showcase of visual stories created during the Reporting Change workshop series by the World Press Photo academy.
+              %br
+              %em Technology stack: Rails 4.0.2, MongoDB 2.4.8, MongoID 4.0.0
+              %li
+                Provide multilingual support on the back end side
+              %li
+                Build a static back end that is easily filled with data
+              %li
+                Introduce rails to external front-end developers
       %li
         %time
           2012 &ndash; 2013
         %div.details-description
           %p
-            Working at 
+            Ruby on Rails Developer at
             %a{ :href => 'http://allani.com', :rel => :nofollow } Allani sp. z o. o.
-            a startup project in Ruby on Rails
 
           %div.details-resp
             %h4.details-resp-header
@@ -38,7 +139,7 @@
               %li
                 Creating a base of the international website (
                 %a{ :href => 'http://allani.com', :rel => :nofollow }<> allani.com
-                ). 
+                ).
                 %em (js/RoR/
                 %strong<> Responsive Web Design
                 )
@@ -48,12 +149,13 @@
               %li
                 Developing landing pages based on mock-ups
                 %em (js/RoR)
+
       %li
         %time
           2010 &ndash; 2012
         %div.details-description
           %p
-            Working at the Advertising Agency
+            PHP developer and IT support at the Advertising Agency
             %a{ :href => 'http://www.wenecja.com.pl', :rel => :nofollow } www.wenecja.com.pl
           %div.details-resp
             %h4.details-resp-header
@@ -70,6 +172,7 @@
               %li
                 Creation and maintenance of internal CRM
                 %em (php/jquery/html/css)
+
       %li
         %time
           2008 &ndash; 2013
@@ -87,6 +190,7 @@
               %li
                 %a{ :href => 'http://wydawnictworemi.pl'} WydawnictwoRemi.pl
                 %em (php/jquery/html/css/wordpress)
+
   %section
     %h3 Education
     %ul.details
@@ -96,56 +200,45 @@
             The School of Banking and Management
           %div.details-resp
             %h4.details-resp-header
-              2007 &ndash; Present
+              2007 &ndash; 2012
             %ul.details-resp-list
               %li IT Engineering degree
+
       %li
         %div.details-description
-          %p
-            Attendance at conferences
           %div.details-resp
             %h4.details-resp-header
-              2013
+              Attendance at conferences
             %ul.details-resp-list
-              %li 
-                %a{ :href => 'http://2013.fromthefront.it/' } FrontTrend Brothers
-                \- From the Front in Italy/Bologna
               %li
-                %a{ :href => 'http://2013.front-trends.com/' } FrontTrends 2013
+                %a{ :href => 'https://2016.fullstackfest.com/' } (2016) FullStackFest (Baruco)
+                in Spain/Barcelona
+              %li
+                %a{ :href => 'http://devternity.com/2015/' } (2016) Wroclove
+                in Poland/Wrocław
+              %li
+                %a{ :href => 'http://devternity.com/2015/' } (2015) Devternity
+                \- Dev Architecture conference in Latvia/Riga
+              %li
+                %a{ :href => 'http://2014.rubyday.it/' } (2014) RubyDay H-farm
+                in Italy/Roncade
+              %li
+                %a{ :href => 'http://2013.fromthefront.it/' } (2013) FrontTrend Brothers
+                in Italy/Bologna
+              %li
+                %a{ :href => 'http://2013.front-trends.com/' } (2013) FrontTrends
                 in Warsaw/Poland
-              %li 
-                %a{ :href => 'http://wrocloverb.com/' } wroc_love_rb
+              %li
+                %a{ :href => 'http://2013.wrocloverb.com/' } (2013) wroc_love_rb
                 in Poland/Wrocław
   %section
-    %h3 Skills
+    %h3 Technologies used
     %ul.details
       %li
         %div.details-description
           %div.details-resp
-            %h4.details-resp-header
-              6 years
-            %ul.details-resp-list
-              %li HTML/CSS
-          %div.details-resp
-            %h4.details-resp-header
-              3 years
-            %ul.details-resp-list
-              %li PHP (wordpress/codeigniter)
-          %div.details-resp
-            %h4.details-resp-header
-              3 years
-            %ul.details-resp-list
-              %li Javascript/Jquery
-          %div.details-resp
-            %h4.details-resp-header
-              2 years
-            %ul.details-resp-list
-              %li Ruby/Rails/Sinatra
-          %div.details-resp
-            %h4.details-resp-header
-              Preprocessors
-            %ul.details-resp-list
-              %li Sass, Coffeescript
+            = @technologies_used
+
   %section
     %h3 Interests
     %ul.details
@@ -156,17 +249,13 @@
               Music
             %ul.details-resp-list
               %li
-                I have a deep passion for music. 
+                I have a deep passion for music.
                 %br My life without music would be empty
+
           %div.details-resp
             %h4.details-resp-header
               Games
             %ul.details-resp-list
               %li
                 If it comes to games, I am a real maniac!
-                %br ...I try to limit my addiction...
-          %div.details-resp
-            %h4.details-resp-header
-              Gadgets
-            %ul.details-resp-list
-              %li Nowadays a gadget geek is as natural as a blue sky. My most beloved are HTC&nbsp;Sensation and a Media Center made of Rasberry&nbsp;Pi!
+                %br ...I try to limit my addiction though...

@@ -1,7 +1,6 @@
-source :rubygems
+source 'https://rubygems.org'
 gem 'sinatra'
 gem 'sinatra-contrib'
-gem 'thin', '1.2.7'
 gem 'haml'
 gem 'sass'
 gem 'compass'
@@ -11,7 +10,5 @@ gem 'maruku'
 
 # development
 group :development do
-  gem 'guard'
-  gem 'guard-livereload'
-  gem 'rack-livereload'
+  gem 'pry'
 end
