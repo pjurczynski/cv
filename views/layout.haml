@@ -47,15 +47,6 @@
                 print
                 %span.icon-print.icon
             %li
-              -if /\/portfolio/ =~ @url 
-                %a{ :href => @prefix + '/' }
-                  resume
-                  %span.icon-cv.icon
-              -else
-                %a{ :href => @prefix + '/portfolio' }
-                  portfolio
-                  %span.icon-portfolio.icon
-            %li
               %a{ :href => 'https://github.com/pjurczynski' }
                 GitHub
                 %span.icon-github.icon
